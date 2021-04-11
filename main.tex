@@ -1,0 +1,38 @@
+\documentclass[journal]{IEEEtran}
+\include{Configuraciones/Paquetes}
+\include{Configuraciones/Ajustes}
+
+\begin{document}
+% Importación de datos
+    \include{Configuraciones/Ajustes2}
+    \input{0 Inicio/0.1 Portada}
+
+% Generación de la portada
+\twocolumn[
+    \begin{@twocolumnfalse}
+        \maketitle
+        \input{0 Inicio/0.2 Abstract}
+        \input{0 Inicio/0.3 Resumen}
+        \input{0 Inicio/0.4 Palabras clave}
+    \end{@twocolumnfalse}
+]
+
+% Cuerpo del documento
+\IEEEpeerreviewmaketitle
+\input{1 Introduccion/Intro}
+\input{2 Planteamiento del problema/Planteamiento_main}
+\input{3 Justificacion/Justificacion_main}
+\input{4 Objetivos/4.0 Objetivos_main}
+\input{5 Antecedentes/5.0 Main}
+\input{6 Marco Teorico/6.0 Marco_teorico_main}
+\input{7 Propuesta solucion/7.0 Propuesta_solucion_main}
+\input{8 Administración del proyecto/8.0 Administracion_proyecto}
+
+% Bibliografía
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+\bibliographystyle{IEEEtran}
+\bibliography{mybibfile.bib}
+
+\end{document}
