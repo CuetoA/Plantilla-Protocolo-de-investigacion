@@ -20,3 +20,13 @@ En la siguiente plantilla:
     
     
 ¡¡Éxito!!
+
+
+## Contribuidores
+
+Si estás agradecido, síguenos en Linkedin, posiblemente nos pueda ser de utilidad a todos:
+
+- Andres Cueto -> https://www.linkedin.com/in/andres-cueto-estrada-4785b11b3/
+- Marco Solís -> https://www.linkedin.com/in/marco-sol%C3%ADs/
+- Mayra Uraga -> https://www.linkedin.com/in/mayra-uraga-36a82020a/
+- Grecia Rocío Herrera Andrade -> https://www.linkedin.com/in/grecia-roc%C3%ADo-herrera-andrade/
